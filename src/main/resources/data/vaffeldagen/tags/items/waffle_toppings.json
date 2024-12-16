@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sugar",
+    {
+      "id": "#vaffeldagen:syrup_containers",
+      "required": false
+    },
+    {
+      "id": "#vaffeldagen:red_berries",
+      "required": false
+    },
+    {
+      "id": "#vaffeldagen:ochre_berries",
+      "required": false
+    },
+    {
+      "id": "#vaffeldagen:chocolate",
+      "required": false
+    }
+  ]
+}

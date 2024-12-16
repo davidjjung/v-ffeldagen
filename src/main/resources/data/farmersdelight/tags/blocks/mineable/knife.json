@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "vaffeldagen:waffle",
+      "required": false
+    },
+    {
+      "id": "vaffeldagen:smoky_waffle_platter",
+      "required": false
+    },
+    {
+      "id": "vaffeldagen:savory_waffle_platter",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+modLoader = "javafml"
+loaderVersion = "[32,)"
+issueTrackerURL = ""
+license = "MIT License"
+
+[[mods]]
+modId = "vaffeldagen"
+version = "${file.jarVersion}"
+logoFile = "logo.png"
+itemIcon = "minecraft:dirt"
+configBackground = "minecraft:textures/block/dirt.png"
+authors = "DavigJ"
+credits = "Thanks to Evo for textures, and GracefulLion for datagen"
+displayURL = ""
+displayName = "Våffeldagen"
+description = '''
+    Adds cozy decorative breakfast foods.
+    '''
+
+[[dependencies.vaffeldagen]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,1.19.3)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.vaffeldagen]]
+modId = "forge"
+mandatory = true
+versionRange = "[43.3.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.vaffeldagen]]
+modId = "blueprint"
+mandatory = true
+versionRange = "[6.2.0,)"
+ordering = "AFTER"
+side = "BOTH"
